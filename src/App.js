@@ -6,7 +6,7 @@ import Homepage from './pages/Homepage/Homepage'
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 // 홈페이지 : /
 // 영화 전체 페이지 (서치) : /movies?q=aerwe
@@ -35,5 +35,5 @@ function App() {
   );
 }
 
-axios.get(`/movies/34`)
+// axios.get(`/movies/34`)
 export default App;
