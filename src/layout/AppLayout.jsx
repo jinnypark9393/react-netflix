@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Outlet } from "react-router-dom";
 import './AppLayout.style.css'
+import MovieSlider from "../common/MovieSlider/MovieSlider";
 
 const AppLayout = () => {
   return (
